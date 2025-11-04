@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Shenelae Loreece Raton">
+    <meta name="description" content="Software Engineer Portfolio">
+    <meta name="keywords" content="Python, SQL, Automation, Web, Data, Software Development">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./assets/SR_logo.png" type="image/x-icon">
+    <title>Shen &middot; Portfolio</title>
+
+    <!-- CSS files -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/skills.css">
+    <link rel="stylesheet" href="./styles/experience.css">
+    <link rel="stylesheet" href="./styles/projects.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="main-navbar">
+          <div class="navbar-brand">
+            <img src="./assets/home/running-gif.gif" alt="running gif" class="navbar-brand-img">
+          <a class="navbar-brand" href="#">SHEN</a>
+          </div>
+          
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Collapsible Menu -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experiences">EXPERIENCE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="row justify-content-center pt-2 text-center">
+          <div class="col-12 col-lg-8">
+            <h1 class="landing-name">SHENELAE RATON</h1>
+            <img src="./assets/home/Shen - portfolio landing.png" alt="cover photo" class="cover-photo">
+          </div>
+          <div class="col-12 col-lg-3 landing-desc">
+            <h2 class="pt-3 job-title">SOFTWARE ENGINEER</h2>
+            <h6 class="cover-description pt-lg-4">
+              Focused on Python, automation, web, and data fundamentals. 
+              <h6 class="cover-description">Seeking full-time opportunity to join a supportive team, grow my skills, and deliver tangible, impactful solutions.</h6>
+            </h6>
+            <div class="pt-3">
+              <a class="linkedin-btn" target="_blank" href="https://www.linkedin.com/in/sldraton/">LinkedIn</a>
+              <a class="contact-btn" href="#contact">Let's Connect</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div>
+          <h1 class="section-header">MORE ABOUT MYSELF ...</h1>
+        </div>
+        <div class="row about-content py-4 py-md-5 g-3">
+          <div class="col-12 text-center col-lg-2">
+            <img src="./assets/about/profile.jpg" alt="profile-photo" class="profile-photo">
+          </div>
+          <div class="about-box-row-1 col-12 col-lg-5 d-flex flex-column gap-3">
+            <div class="educ-bg-box mx-auto">
+              <h6 class="educ-bg-txt">BS Electronics Engineering Graduate from Asia Pacific College. My engineering background provides a strong foundation in logic and problem-solving.</h6>
+            </div>
+            <div class="work-bg-box mx-auto">
+              <h6 class="work-bg-txt">Industry experience includes cloud automation, batch processing, test automation, front-end development, data manipulation and visualization, and SQL scripting.</h6>
+            </div>
+          </div>
+          <div class="about-box-row-2 col-12 col-lg-5 d-flex flex-column gap-3">
+            <div class="personal-bg-box mx-auto order-2 order-lg-1">
+              <h6 class="personal-bg-txt">Naturally curious, highly-driven, and committed to continuous learning and improvement.</h6>
+            </div>
+            <div class="aspiration-bg-box mx-auto order-1 order-lg-2">
+              <h6 class="aspiration-bg-txt">Actively seeking for a full-time role to immediately leverage my skills and specialize in Python-based development.</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div>
+          <h1 class="section-header">SKILLS ...</h1>
+        </div>
+        <div class="p-3 py-lg-5 container-fluid row row-cols-1 row-cols-md-4 row-cols-lg-4 gap-3 d-flex justify-content-center">
+          <div class="col skill-box-dark">
+            <h5 class="skill-header mb-md-2 text-center">Programming & Automation</h5>
+            <span class="badge skill-light">Python</span>
+            <span class="badge skill-light">C#</span>
+            <span class="badge skill-light">Linux shell scripting</span>
+            <span class="badge skill-light">Power Automate</span>
+          </div>
+          <div class="col skill-box-light">
+            <h5 class="skill-header mb-md-2 text-center">Web & Front-End Development</h5>
+            <span class="badge skill-dark">HTML</span>
+            <span class="badge skill-dark">CSS</span>
+            <span class="badge skill-dark">Bootstrap</span>
+            <span class="badge skill-dark">Angular</span>
+          </div>
+          <div class="col skill-box-dark">
+            <h5 class="skill-header mb-md-2 text-center">Data & Database Tools</h5>
+            <span class="badge skill-light">Oracle</span>
+            <span class="badge skill-light">Palantir Foundry</span>
+            <span class="badge skill-light">PySpark</span>
+          </div>
+          <div class="col skill-box-light">
+            <h5 class="skill-header mb-md-2 text-center">Collaboration and Project Tools</h5>
+            <span class="badge skill-dark">Jira</span>
+            <span class="badge skill-dark">Azure DevOps</span>
+            <span class="badge skill-dark">Git</span>
+            <span class="badge skill-dark">Miro</span>
+          </div>
+          <div class="col skill-box-dark">
+            <h5 class="skill-header mb-md-2 text-center">Active Development Focus</h5>
+            <span class="badge skill-light">PostgreSQL</span>
+            <span class="badge skill-light">Javascript</span>
+            <span class="badge skill-light">Docker</span>
+            <span class="badge skill-light">UiPath Automation</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="experiences">
+        <div>
+          <h1 class="section-header">EXPERIENCES ...</h1>
+        </div>
+        <div class="container-fluid py-3 py-md-5 d-flex justify-content-center"> 
+          <div class="justify-content-center align-items-center d-block d-md-grid d-xl-flex gap-4">
+            <div class=" d-block d-md-flex company-box p-3 p-md-3 expand fj-box" onclick="expandCollapseFJ()">
+              <div class="d-flex flex-column justify-content-center">
+                <img src="./assets/experience/fujitsu.jpg" alt="Fujitsu-photo" class="company-photo">
+                <h6 class="fw-bold company-desc pt-3">Application Systems Engineer</h6>
+                <p class="company-desc">WeServ Systems International (Fujitsu)</p>
+                <p class="company-desc">Taguig City</p>
+                <p class="company-desc">Dates: June 2021 - April 2025</p>
+              </div>
+            </div>
+            <div class="d-block d-md-flex company-box p-2 p-md-3 mt-4 mt-xl-0 expand wtw-box" onclick="expandCollapseWTW()">
+              <div class="d-flex flex-column justify-content-center">
+                <img src="./assets/experience/wcc.jpeg" alt="company-photo" class="company-photo">
+                <h6 class="fw-bold company-desc pt-3">Software Developer Intern</h6>
+                <p class="company-desc">Willis Towers Watson</p>
+                <p class="company-desc">Taguig City</p>
+                <p class="company-desc">Dates: February 2019 - August 2019</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div>
+          <h1 class="section-header">PROJECTS ...</h1>
+        </div>
+        <div class="container py-3 py-md-5">
+          <div class="row g-5">
+            <div class="col-10 col-md-5 col-lg-3 mx-auto">
+              <div class="card">
+                <img src="./assets/projects/bananas.jpg" alt="Banana Image Processing Project" class="card-img-top banana-proj-1">
+                <div class="card-body">
+                  <h5 class="card-title">Cultivar and Quality Identifier for Bananas using Image Processing in MATLAB</h5>
+                  <p class="card-text">System that determines the quality and cultivar of bananas. This involves a hardware to acquire the image of the banana and software for image processing. The basic parts of image processing include the following: preprocessing, feature extraction, and image recognition. The cultivar (Cavendish, Lagkitan, Lakatan,Latundan, Saba, and Señorita) classification is based on the trained model. The quality is determined through the calculation of area of damage compared with the thresholds for each classification (Extra Class, Class I, and Class II).</p>
+                  <button class="btn see-more-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#banana-proj-offcanvas">See More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-md-5 col-lg-3 mx-auto">
+              <div class="card">
+                <img src="./assets/projects/power_monitoring_proj.png" alt="Power Monitoring Project" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Power Consumption Monitoring and Remote Control of Appliances</h5>
+                  <p class="card-text">
+                    Monitors the current power consumption of a device or appliance and control its on/off function through the interface of Roboremo App.
+                  </p>
+                  <button class="btn see-more-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#power-proj-offcanvas">See More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-md-5 col-lg-3 mx-auto">
+              <div class="card">
+                <img src="./assets/projects/linkedin-jobs.png" alt="Automated LinkedIn Jobs Scraping Project" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Automated LinkedIn Jobs Scraping [Ongoing]</h5>
+                  <p class="card-text">
+                    Python-based automation tool that scrapes and filters LinkedIn job postings, prioritizing recent results for targeted job search analysis.
+                  </p>
+                  <button class="btn see-more-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#linkedin-proj-offcanvas">See More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-md-5 col-lg-3 mx-auto">
+              <div class="card">
+                <img src="./assets/projects/running.jpg" alt="Running Weather Project" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Weather API Notification System for Optimal Running Conditions [Ongoing]</h5>
+                  <p class="card-text">
+                    Automation system that processes weather forecasts from the Open-Meteo API to recommend optimal daily running times via notification.
+                  </p>
+                  <button class="btn see-more-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#running-proj-offcanvas">See More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-md-5 col-lg-3 mx-auto">
+              <div class="card">
+                <img src="./assets/projects/resistor-project.png" alt="Resistor Decoder Project" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Resistor Decoder[Ongoing]</h5>
+                  <p class="card-text">
+                    Website for determining the color-coded value of four- and five-band resistors. It contains three tabs based on the number of bands. There are bu􀆩ons that allow user to choose the corresponding band color. The result along with the tolerance percentage is displayed. Remaining tasks: deployment, sec􀆟on for the six-band resistor, and addi􀆟onal features (ge􀆫ng the band colors based on the resistor value, resistor color coding chart, and addi􀆟onal informa􀆟on for learning about resistors).
+                  </p>
+                  <button class="btn see-more-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#resistor-proj-offcanvas">See More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Offcanvas -->
+        <div id="banana-proj-offcanvas" class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="bananaOffCanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="bananaOffCanvasLabel">Cultivar and Quality Identifier for Bananas using Image Processing in MATLAB</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="mb-3">
+              <span class="badge proj-badge">Machine Learning</span>
+              <span class="badge proj-badge">MATLAB</span>
+              <span class="badge proj-badge">Image Processing</span>
+              <span class="badge proj-badge">Banana</span>
+            </div>
+            <div class="d-flex gap-3">
+              <img src="./assets/projects/banana-proj-hardware.jpg" alt="Banana Project Hardware" class="offcanvas-cover-photo-portrait">
+              <span class="offcanvas-overview">
+                <p class="m-0"><em>
+                  Full Project Title: Postharvest Quality Assessment of Non-Chemical Bananas Utilizing HOG Feature Extraction and K-means Clustering</em>
+                </p>
+                Banana industry is one of the main concerns of the country being one of the largest exporters of bananas. The common characteristics monitored for banana quality are color, size, and defects that are currently classified manually. This can be time-consuming, inconsistent, and has drawbacks in accuracy. With this, a system that is accurate in classifying the banana according to its cultivar and grade, fast in execution, and applicable to various banana cultivars is developed. This is made possible by image processing in MATLAB application using K-Means Clustering and HOG Feature Extraction as the main algorithms. </span>
+            </div>
+            <div class="pt-4 pb-3">
+              <ul class="custom-bullet ps-1">
+                <li class="proj-bullet">
+                  &#9752 Role: Programmer, Circuit Design
+                </li>
+                <li class="proj-bullet">
+                  &#9752 Technologies/Tools: MATLAB, Arduino, Motors, Camera, IR Sensor
+                </li>
+                <li class="proj-bullet">
+                  &#9752 Features: Live image capture, GUI, real-time monitoring of image processing
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5 class="offcanvas-title">System Overview</h5>
+              <img src="./assets/projects/banana-proj-system-overview.png" alt="Banana Project System Overview" class="proj-system-overview">
+            </div>
+            <div>
+              <h5 class="offcanvas-title">Sample Screenshot</h5>
+              <img src="./assets/projects/banana-proj-sample-result-ui.png" alt="Banana Project GUI" class="proj-screenshot py-3">
+            </div>
+            <div class="offcanvas-footer py-3">
+              <a href="https://ieeexplore.ieee.org/document/9514024" target="_blank" class="offcanvas-btn">View Publication</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Power Consumption OffCanvas -->
+        <div id="power-proj-offcanvas" class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="powerOffCanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="powerOffCanvasLabel">Power Consumption Monitoring and Remote Control of Appliances</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="mb-3">
+              <span class="badge proj-badge">Arduino</span>
+              <span class="badge proj-badge">Monitoring</span>
+              <span class="badge proj-badge">Bluetooth</span>
+            </div>
+            <div class="d-flex gap-3">
+              <img src="./assets/projects/power-consumption-prototype.png" alt="Power Consumption Monitoring Hardware" class="offcanvas-cover-photo-portrait">
+              <span class="offcanvas-overview">
+                Monitors power consumption in real-time. Results are displayed on the Roboremo mobile application. Appliance's on/off function can be controlled on the mobile app. 
+              </span>
+            </div>
+            <div class="pt-4 pb-3">
+              <ul class="custom-bullet ps-1">
+                <li class="proj-bullet">
+                  &#9752 Category: Client Project (Individually done)
+                </li>
+                <li class="proj-bullet">
+                  &#9752 Role: Programmer, Circuit Design, Hardware Assemble
+                </li>
+                <li class="proj-bullet">
+                  &#9752 Technologies/Tools: Arduino Microcontroller, Power Analyzer, Bluetooth Shield, Relay Module, Bluetooth, Roboremo App
+                </li>
+                <li class="proj-bullet">
+                  &#9752 Features: Real-time monitoring, mobile UI, remote control, bluetooth connection, 1 port for appliance
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5 class="offcanvas-title">Hardware Connection</h5>
+              <img src="./assets/projects/power-consumption-hardware.jpeg" alt="Project's Chassis" class="power-proj-chassis py-3">
+            </div>
+            <div>
+              <h5 class="offcanvas-title">Sample Screenshot</h5>
+              <img src="./assets/projects/power-consumption-screenshot.webp" alt="Mobile UI" class="proj-screenshot-vertical py-3">
+            </div>
+            <!-- <div class="offcanvas-footer py-3">
+              <a href="https://ieeexplore.ieee.org/document/9514024" target="_blank" class="offcanvas-btn">View Publication</a>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- LinkedIn Jobs Scraping -->
+        <div id="linkedin-proj-offcanvas" class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="linkedinOffCanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="linkedinOffCanvasLabel">Autaomted LinkedIn Jobs Scraping [Ongoing]</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="mb-3">
+              <span class="badge proj-badge">Web Scraping</span>
+              <span class="badge proj-badge">Monitoring</span>
+              <span class="badge proj-badge">Python</span>
+            </div>
+            <div class="d-flex gap-3">
+              <img src="./assets/projects/linkedin-jobs.png" alt="LinkedIn Job Scraping Cover Photo" class="offcanvas-cover-photo-portrait">
+              <span class="offcanvas-overview">
+                Python-based automation tool that scrapes and filters LinkedIn job postings, prioritizing recent results for targeted job search analysis. Extracted information includes the following: role, company, location, link to job, and job description. It currently stores the results on a txt file under the folder named based on current date and time. <em>Will modify this to store results in an excel file instead and to store the configuration values in a separate file. </em>
+              </span>
+            </div>
+            <div class="pt-4 pb-3">
+              <ul class="custom-bullet ps-1">
+                <li class="proj-bullet">
+                  &#9752 Category: Personal Project (Ongoing)
+                </li>
+                <li class="proj-bullet">
+                  &#9752 Technologies/Tools: Python (BeautifulSoup, requests)
+                </li>
+                <li class="proj-bullet">
+                  &#9752 Features: option to filter out specific skills, automatically fetches information daily
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5 class="offcanvas-title">Sample Output</h5>
+              <img src="./assets/projects/linkedin-proj-screenshot.jpg" alt="Output Screenshot" class="linkedin-code-output py-3">
+            </div>
+            <!-- <div class="offcanvas-footer py-3">
+              <a href="https://ieeexplore.ieee.org/document/9514024" target="_blank" class="offcanvas-btn">View Publication</a>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- Running Weather Conditions -->
+        <div id="running-proj-offcanvas" class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="runningOffCanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="runningOffCanvasLabel">Weather API Notification System for Optimal Running Conditions [Ongoing]</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="mb-3">
+              <span class="badge proj-badge">Python</span>
+              <span class="badge proj-badge">API</span>
+              <span class="badge proj-badge">Weather Forecast</span>
+              <span class="badge proj-badge">Automation</span>
+            </div>
+            <div class="d-flex gap-3">
+              <img src="./assets/projects/city-park.jpg" alt="Running Weather Project Cover Photo" class="offcanvas-cover-photo-portrait">
+              <span class="offcanvas-overview">
+                Determines the hours suitable for running outside based on the weather forecasts through Open-Meteo API. The forecast is analyzed once in the early morning, and once in the afternoon. The selected range of hours will be categorized into the following: Ideal, Good, and Poor. <em>Remaining tasks: integrating individual modules into main file, updating of database table, and sending of notification to user.</em>
+              </span>
+            </div>
+            <div class="pt-4 pb-3">
+              <ul class="custom-bullet ps-1">
+                <li class="proj-bullet">
+                  &#9752 Category: Personal Project (Ongoing)
+                </li>
+                <li class="proj-bullet">
+                  &#9752 Technologies/Tools: Python (Numpy, Pandas, smtplib), PostgreSQL, Open-Meteo API
+                </li>
+                <li class="proj-bullet">
+                  &#9752 Features: twice a day weather forecast fetching, database for forecast and results, email for notification
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h5 class="offcanvas-title">Sample Weather Forecast</h5>
+              <img src="./assets/projects/weather-forecast-screenshot.jpg" alt="Output Screenshot" class="linkedin-code-output py-3">
+            </div>
+            <!-- <div class="offcanvas-footer py-3">
+              <a href="https://ieeexplore.ieee.org/document/9514024" target="_blank" class="offcanvas-btn">View Publication</a>
+            </div> -->
+          </div>
+        </div>
+
+        <!-- Resistor Decoder Project -->
+        <div id="resistor-proj-offcanvas" class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="resistorOffCanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="resistorOffCanvasLabel">Resistor Decoder [Ongoing]</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="mb-3">
+              <span class="badge proj-badge">Resistor</span>
+              <span class="badge proj-badge">Web Development</span>
+            </div>
+            <div class="d-flex gap-3">
+              <img src="./assets/projects/resistor-project-sample-screenshot.jpg" alt="Resistor Decoder project screenshot" class="offcanvas-cover-photo-landscape">
+              <span class="offcanvas-overview">
+                Website for determining the color-coded value of four- and five-band resistors. It contains three tabs based on the number of bands. There are buttons that allow user to choose the corresponding band color. The result along with the tolerance percentage is displayed. <em>Remaining tasks: deployment, section for the six-band resistor, and additional features (getting the band colors based on the resistor value, resistor color coding chart, and additional information for learning about resistors).</em>
+              </span>
+            </div>
+            <div class="pt-4 pb-3">
+              <ul class="custom-bullet ps-1">
+                <li class="proj-bullet">
+                  &#9752 Category: Personal Project (Ongoing)
+                </li>
+                <li class="proj-bullet">
+                  &#9752 Technologies/Tools: HTML, CSS, Bootstrap, Javascript, Resistor Color-Coding
+                </li>
+                <li class="proj-bullet">
+                  &#9752 Features: applicable to 4,5,6-band resistors, buttons for choosing each band color
+                </li>
+              </ul>
+            </div>
+            
+            <!-- <div class="offcanvas-footer py-3">
+              <a href="https://ieeexplore.ieee.org/document/9514024" target="_blank" class="offcanvas-btn">View Publication</a>
+            </div> -->
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div>
+          <h1 class="section-header">LET'S CONNECT ...</h1>
+        </div>
+        <div class="container py-4 px-0 d-flex justify-content-center">
+          <form action="https://api.web3forms.com/submit" id="contact-form" class="p-3 p-md-4" method="POST">
+            <input type="hidden" name="access_key" value="18e682b5-3c23-4f4f-8b1f-6392d349a3d5">
+            <input type="hidden" name="subject" value="New Submission from Portfolio Website">
+            <input type="hidden" name="redirect" value="https://sldraton.github.io/revelio/thanks.html">
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+            <div>
+              <label for="userName" class="form-label">Name</label>
+              <input type="text" class="form-control" id="userName" placeholder="ex: Lee Hyeri" name="name" required>
+            </div>
+            <div class="row py-2">
+              <div class="col col-12 col-md-6">
+                <label for="userMail" class="form-label">Email</label>
+                <input type="text" class="form-control" id="userMail" placeholder="ex: lee.hyeri@hyeroomy.com" name="email" required>
+              </div>
+              <div class="col col-12 col-md-6 pt-2 pt-md-0">
+                <label for="userReason" class="form-label">Reason for contact</label>
+                <select id="userReason" class="form-select" placeholder="Choose from the following:" name="reason" required>
+                  <option value="Job Opportunity/Recruitment">Job Opportunity/Recruitment</option>
+                  <option value="Project Collaboration/Freelance">Project Collaboration/Freelance</option>
+                  <option value="Collaboration">Collaboration</option>
+                  <option value="Networking/Mentorship">Networking/Mentorship</option>
+                  <option value="General Inquiry">General Inquiry</option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <label for="userMessage" class="form-label">Message</label>
+              <textarea id="userMessage" rows="4" class="form-control" placeholder="Tell me about the opportunity or project you have in mind..." name="message" required></textarea>
+            </div>
+            <div class="text-center pt-3">
+              <button class="btn form-submit submit-form" type="submit">Connect Now</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="d-flex flex-column align-items-center py-4 text-center">
+        <p class="footer-text px-3"><em>“The mind is not a book, to be opened at will and examined at leisure.”</em></p>
+        <div class="d-flex gap-4 align-items-center">
+          <a href="https://www.linkedin.com/in/sldraton/" target="_blank" data-bs-toggle="tooltip" title="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+              class="social-icon">
+                  <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+              </svg> 
+          </a>
+          
+          <a href="mailto:ratonshenelaeloreece@gmail.com" target="_blank" data-bs-toggle="tooltip" title="gmail">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                  class="social-icon">
+                  <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/>
+              </svg>
+          </a>
+          
+          <a href="https://github.com/sldraton" target="_blank" data-bs-toggle="tooltip" title="github">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"
+                  class="social-icon">
+                  <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+              </svg>
+          </a>
+          
+          <a href="https://www.instagram.com/jjungbi.dev/" target="_blank" data-bs-toggle="tooltip" title="instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                  class="social-icon">
+                  <path d="M194.4 211.7a53.3 53.3 0 1 0 59.3 88.7 53.3 53.3 0 1 0 -59.3-88.7zm142.3-68.4c-5.2-5.2-11.5-9.3-18.4-12c-18.1-7.1-57.6-6.8-83.1-6.5c-4.1 0-7.9 .1-11.2 .1c-3.3 0-7.2 0-11.4-.1c-25.5-.3-64.8-.7-82.9 6.5c-6.9 2.7-13.1 6.8-18.4 12s-9.3 11.5-12 18.4c-7.1 18.1-6.7 57.7-6.5 83.2c0 4.1 .1 7.9 .1 11.1s0 7-.1 11.1c-.2 25.5-.6 65.1 6.5 83.2c2.7 6.9 6.8 13.1 12 18.4s11.5 9.3 18.4 12c18.1 7.1 57.6 6.8 83.1 6.5c4.1 0 7.9-.1 11.2-.1c3.3 0 7.2 0 11.4 .1c25.5 .3 64.8 .7 82.9-6.5c6.9-2.7 13.1-6.8 18.4-12s9.3-11.5 12-18.4c7.2-18 6.8-57.4 6.5-83c0-4.2-.1-8.1-.1-11.4s0-7.1 .1-11.4c.3-25.5 .7-64.9-6.5-83l0 0c-2.7-6.9-6.8-13.1-12-18.4zm-67.1 44.5A82 82 0 1 1 178.4 324.2a82 82 0 1 1 91.1-136.4zm29.2-1.3c-3.1-2.1-5.6-5.1-7.1-8.6s-1.8-7.3-1.1-11.1s2.6-7.1 5.2-9.8s6.1-4.5 9.8-5.2s7.6-.4 11.1 1.1s6.5 3.9 8.6 7s3.2 6.8 3.2 10.6c0 2.5-.5 5-1.4 7.3s-2.4 4.4-4.1 6.2s-3.9 3.2-6.2 4.2s-4.8 1.5-7.3 1.5l0 0c-3.8 0-7.5-1.1-10.6-3.2zM448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM357 389c-18.7 18.7-41.4 24.6-67 25.9c-26.4 1.5-105.6 1.5-132 0c-25.6-1.3-48.3-7.2-67-25.9s-24.6-41.4-25.8-67c-1.5-26.4-1.5-105.6 0-132c1.3-25.6 7.1-48.3 25.8-67s41.5-24.6 67-25.8c26.4-1.5 105.6-1.5 132 0c25.6 1.3 48.3 7.1 67 25.8s24.6 41.4 25.8 67c1.5 26.3 1.5 105.4 0 131.9c-1.3 25.6-7.1 48.3-25.8 67z"/>
+              </svg>
+          </a>
+        </div>
+        <p class="m-0 footer-text pt-3">
+          &copy; 2025 Shenelae Loreece Raton. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <!-- Custom Scripts -->
+     <script src="index.js" defer></script>
+     <script src="./scripts/home.js"></script>
+     <script src="./scripts/experience.js"></script>
+
+     <!-- Required script for web3forms for hCaptcha -->
+      <script src="https://web3forms.com/client/script.js" async defer></script>
+  </body>
+</html>

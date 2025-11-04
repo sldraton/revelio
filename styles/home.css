@@ -1,0 +1,108 @@
+.cover-photo {
+  width: 100%;
+  aspect-ratio: 2/1.05;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.landing-name {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: clamp(1.9rem, 6vw, 5rem);
+  margin-bottom: -5px;
+  
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideInUp 0.8s ease-in-out forwards;
+}
+
+.job-title {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 900;
+  font-size: clamp(1.3rem, 3.5vw, 2.7rem);
+  line-height: 1;
+
+  opacity: 0;
+  transform: translateX(20px);
+  animation: slideRightLeft 0.7s ease-in-out forwards;
+  animation-delay: 0.6s;
+}
+
+.cover-description {
+  font-size: clamp(0.5rem, 1.5vw, 0.8rem);
+  font-weight: 400;
+  line-break: auto;
+
+  opacity: 0;
+  transform: translateX(20px);
+  animation: slideRightLeft 0.7s ease-in-out forwards;
+  animation-delay: 0.6s;
+}
+
+.linkedin-btn, .contact-btn {
+  background-color: #020403;
+  color: #e8e9d9;
+  border: none;
+  padding-block: 5px;
+  padding-inline: 15px;
+  border-radius: 25px;
+  font-size: clamp(0.5rem, 1.2vw, 0.7rem);
+  font-weight: 700;
+  text-decoration: none;
+  width: fit-content;
+  transition: background-color 0.35s color 0.35s;
+  
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideInUp 1s ease-in-out forwards;
+  animation-delay: 0.6s;
+}
+
+.linkedin-btn:hover, .contact-btn:hover {
+  cursor: pointer;
+  background-color: #020403c1;
+  color: #e8e9d9;
+}
+
+.linkedin-btn:active, .contact-btn:active {
+  background-color: #a0c9c9;
+  color: #020403;
+}
+
+.landing-desc {
+  display: block;
+  place-content: center;
+}
+
+@media (min-width: 1000px) {
+  .landing-desc {
+    text-align: start;
+    place-content: start;
+  }
+
+  .landing-name {
+    text-align: start;
+  }
+
+  .linkedin-btn, .contact-btn {
+    font-size: medium;
+    display: block;
+    margin-block: 1rem;
+  }
+
+  .job-title {
+    padding-top: 0px !important;
+  }
+}
+
+@keyframes slideInUp {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+@keyframes slideRightLeft {
+  from {opacity: 0; transform: translateX(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}

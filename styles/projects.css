@@ -1,0 +1,202 @@
+#projects {
+  background-color: #cdd8da;
+}
+
+.card-title {
+  font-size: clamp(0.2rem,3.2vw,0.8rem);
+  font-weight: 600;
+  line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  min-height: 2.5rem;
+}
+
+.card {
+  background-color: #e8e9d9;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: background-color 0.35s transform 0.35s ease box-shadow 0.35s ease color 0.35s;
+}
+
+.card:hover {
+  background-color: #d6d9ad;
+  /* color: #e8e9d9; */
+  transform: scale(1.01);
+  box-shadow: 2px 5px 10px #02040379;
+}
+
+.see-more-btn:hover {
+  background-color: #020403c1;
+  color: #e8e9d9;
+}
+
+.see-more-btn:active {
+  background-color: #a0c9c9;
+  color: #020403;
+  box-shadow: none;
+}
+
+.see-more-btn::after {
+  box-shadow: none;
+}
+
+.card-img-top {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  overflow: hidden;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  /* padding: 0.8rem;
+  border: none;
+  border-radius: 23px; */
+}
+
+.card-text {
+  font-size: clamp(0.2rem,3vw,0.7rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  min-height: 3.6em;
+}
+
+.proj-badge {
+  font-size: clamp(0.5rem, 1.5vw, 0.6rem);
+  font-weight: 600;
+  background-color: #020403;
+  color: #e8e9d9;
+}
+
+.see-more-btn {
+  font-size: clamp(0.2rem,3vw,0.8rem);
+  font-weight: 600;
+  background-color: #020403;
+  color: #e8e9d9;
+  display: flex;
+  justify-self: end;
+  border: none;
+  border-radius: 0px;
+  padding-inline: 0.8rem;
+  padding-block: 0.3rem;
+  transition: background-color 0.35s color 0.35s;
+}
+
+.banana-proj-1 {
+  filter: saturate(1.2) contrast(0.9);
+}
+
+.offcanvas {
+  background-color: #e8e9d9;
+}
+
+.proj-badge {
+  background-color: #020403;
+  color: #e8e9d9;
+}
+
+.offcanvas-title {
+  font-size: clamp(0.3rem,3.5vw,0.9rem);
+  font-weight: 600;
+}
+
+.offcanvas-header {
+  border-bottom: 3px solid #020403;
+}
+
+.offcanvas-overview {
+  font-size: clamp(0.2rem,2vw,0.7rem);
+  font-weight: 400;
+}
+
+.offcanvas-cover-photo-portrait {
+  height: 30vh;
+  border-radius: 10px;
+}
+
+.offcanvas-cover-photo-landscape {
+  width: 20dvw;
+}
+
+.proj-system-overview {
+  width: 100%;
+}
+
+.custom-bullet {
+  list-style: none;
+  padding: none;
+}
+
+.proj-bullet {
+  font-size: clamp(0.5rem,2.8vw,0.8rem);
+}
+
+.proj-screenshot {
+  width: 60%;
+  display: flex;
+  justify-self: center;
+}
+
+.offcanvas-btn {
+  background-color: #020403;
+  color: #e8e9d9;
+  font-size: clamp(0.5rem,3vw,0.8rem);
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: background-color 0.35s color 0.35s;
+}
+
+.offcanvas-btn:hover {
+  cursor: pointer;
+  background-color: #a0c9c9;
+  color: #020403;
+}
+
+.offcanvas-btn:active {
+  background-color: #cdd8da;
+}
+
+.power-proj-chassis {
+  width: 40%;
+  display: flex;
+  justify-self: center;
+}
+
+.proj-screenshot-vertical {
+  width: 25%;
+  display: flex;
+  justify-self: center;
+}
+
+.linkedin-code-output {
+  width: 80%;
+  display: flex;
+  justify-self: center;
+}
+
+@media (min-width: 1024px) {
+  .card-title {
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    min-height: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .offcanvas {
+    /* margin: 1rem; */
+    margin-inline: 25dvw;
+    margin-block: 1rem;
+    border: none;
+    border-radius: 8px;
+    width: 50dvw;
+  }
+}

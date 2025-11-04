@@ -1,0 +1,123 @@
+html, body {
+  background-color: #e8e9d9;
+  color: #020403;
+  font-family: "League Spartan", sans-serif;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.checkmark {
+  /* font-size: clamp(3.5rem, 6vw, 6rem); */
+  font-weight: 900;
+  background-color: #020403;
+  color: #e8e9d9;
+  width: 6rem;
+  height: 6rem;
+  font-size: 4rem;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 7px #020403c7;
+}
+
+.message-header {
+  font-weight: 700;
+  font-size: larger;
+}
+
+.message-more {
+  font-size: medium;
+}
+
+.go-back-btn {
+  text-decoration: none;
+  background-color: #020403;
+  color: #e8e9d9;
+  border: none;
+  border-radius: 35px;
+  font-size: medium;
+  font-weight: 600;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  box-shadow: 0px 0px 4px #0204037e;
+  transition: background-color 0.35s color 0.35s box-shadow 0.35s;
+}
+
+.go-back-btn:hover {
+  cursor: pointer;
+  background-color: #020403c1;
+  color: #e8e9d9;
+}
+
+.go-back-btn:active {
+  background-color: #a0c9c9;
+  color: #020403;
+}
+
+.go-back-btn:focus {
+  box-shadow: none;
+}
+
+.owl-img {
+  width: 3rem;
+  height: 3rem;
+  display: absolute;
+}
+
+.castle-img {
+  width: 5rem;
+}
+
+.owl-sending {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+@keyframes flyingOwl {
+  0% {transform: translateX(-100%);}
+  20% {transform: translateX(-80%) rotate(5deg);}
+  40% {transform: translateX(-60%) rotate(-1deg);}
+  60% {transform: translateX(-40%) rotate(5deg);}
+  80% {transform: translateX(-20%) rotate(-1deg);}
+  100% {transform: translateX(0);}
+}
+
+.owl-box {
+  display: flex;
+  animation: flyingOwl 1s forwards ease-out;
+}
+/* 
+.main-area {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideInUp 1s ease-out forwards;
+  animation-delay: 1s;
+} */
+
+.checkmark, .message-header {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideInUp 1s ease-out forwards;
+  animation-delay: 1s;
+}
+
+.message-more {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideInUp 1s ease-out forwards;
+  animation-delay: 1.5s;
+}
+
+.go-back-btn {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideInUp 1s ease-out forwards;
+  animation-delay: 1.8s;
+}
+
+@keyframes slideInUp {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}

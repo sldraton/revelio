@@ -1,0 +1,48 @@
+#skills {
+  background-color: #cdd8da;
+}
+
+.skill-header {
+  font-size: clamp(0.2rem,3vw,0.9rem);
+  font-weight: 700;
+  border-bottom: 2px solid;
+  margin-bottom: 0px;
+}
+
+.skill-dark, .skill-light {
+  font-size: clamp(0.5rem, 1.5vw, 0.7rem);
+  font-weight: 600;
+}
+
+.skill-dark {
+  background-color: #020403;
+  color: #e8e9d9;
+}
+
+.skill-light {
+  background-color: #e8e9d9;
+  color: #020403;
+}
+
+.skill-box-dark {
+  background-color: #020403;
+  color: #e8e9d9;
+}
+
+.skill-box-light {
+  background-color: #e8e9d9;
+  color: #020403;
+}
+
+.skill-box-dark, .skill-box-light {
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  max-width: 50dvw;
+}
+
+@media (min-width: 768px) {
+  .skill-box-dark, .skill-box-light {
+    max-width: 30dvw;
+  }
+}

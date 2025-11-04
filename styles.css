@@ -1,0 +1,70 @@
+html, body {
+  background-color: #e8e9d9;
+  color: #020403;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  padding-inline: 5vw;
+  border-bottom: 4px solid #020403;
+  background-color: #e8e9d9e5;
+}
+
+.navbar-brand {
+  font-weight: 800;
+}
+
+.navbar-brand-img {
+  width: 1.5rem;
+  filter: contrast(1.2) drop-shadow() saturate(1.3);
+}
+
+.nav-link {
+  border-radius: 8px;
+  transition: background-color 0.35s color 0.35s;
+}
+
+.nav-link:hover {
+  background-color: #020403;
+  color: #e8e9d9 !important;
+}
+
+.navbar-toggler {
+  background-color: #020403;
+}
+
+section {
+  padding-inline: 10dvw;
+  padding-bottom: 5vh;
+}
+
+h1, h2, h5, h6 {
+  margin-bottom: 0px;
+}
+
+.section-header {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 900;
+  font-size: clamp(1.3rem, 3.5vw, 2.7rem);
+  line-height: 1;
+}
+
+footer {
+  background-color: #020403;
+  color: #e8e9d9;
+}
+
+.social-icon {
+  fill: #e8e9d9;
+  width: 1.8rem;
+}
+
+.social-icon:hover {
+  fill: #d6d9ad;
+}
+
+.footer-text {
+  font-size: clamp(0.2rem,3vw,0.7rem);
+}

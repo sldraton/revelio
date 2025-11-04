@@ -1,0 +1,55 @@
+#about {
+  background-image: url("../assets/about/portfolio%20grid%20bg.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 20%;
+}
+
+.profile-photo {
+  /* width: clamp(5rem,20vw, 10rem); */
+  width: 100%;
+  max-width: 8rem;
+  object-fit: cover;
+  filter: brightness(1.2);
+  aspect-ratio: 4/5;
+  border-radius: 8px;
+}
+
+.educ-bg-txt, .work-bg-txt, .personal-bg-txt, .aspiration-bg-txt {
+  font-size: clamp(0.6rem, 1.5vw, 0.8rem);
+  font-weight: 500;
+}
+
+.educ-bg-box, .work-bg-box, .personal-bg-box, .aspiration-bg-box {
+  width: 100%;
+  max-width: 30rem;
+  max-height: 5rem;
+  aspect-ratio: 4/1;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.educ-bg-box, .aspiration-bg-box {
+  background-color: #020403;
+  color: #e8e9d9;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 3px 5px #020403af;
+}
+
+.work-bg-box, .personal-bg-box {
+  /* border: solid #020403 1px; */
+  background-color: #e8e9d9;
+  border-radius: 8px;
+  box-shadow: 0px 3px 5px #020403af;
+}
+
+@media (min-width: 1024px) {
+  .educ-bg-box, .work-bg-box, .personal-bg-box, .aspiration-bg-box {
+    width: 85%;
+    min-height: 7rem;
+    max-height: 8rem;
+    padding: 1rem;
+  }
+}
