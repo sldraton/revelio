@@ -112,7 +112,7 @@
 }
 
 .offcanvas-overview {
-  font-size: clamp(0.2rem,2vw,0.7rem);
+  font-size: clamp(0.5rem,2.8vw,0.8rem);
   font-weight: 400;
 }
 
@@ -122,7 +122,13 @@
 }
 
 .offcanvas-cover-photo-landscape {
-  width: 20dvw;
+  width: 40%;
+  object-fit: cover;
+  height: 20%;
+}
+
+.offcanvas-cover-photo-resistor-proj {
+  width: 100%;
 }
 
 .proj-system-overview {
@@ -139,7 +145,7 @@
 }
 
 .proj-screenshot {
-  width: 60%;
+  width: 100%;
   display: flex;
   justify-self: center;
 }
@@ -177,7 +183,7 @@
 }
 
 .linkedin-code-output {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-self: center;
 }
@@ -199,4 +205,6 @@
     border-radius: 8px;
     width: 50dvw;
   }
+
+
 }
