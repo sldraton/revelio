@@ -16,6 +16,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
     <link rel="shortcut icon" href="./assets/SR_logo.png" type="image/x-icon">
     <title>Shen &middot; Portfolio</title>
 
@@ -37,8 +40,10 @@
           <a class="navbar-brand" href="#">SHEN</a>
           </div>
           
-          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler navbar-dark collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="menu-icon bi bi-list"></i> 
+            <i class="close-icon bi bi-x-lg"></i>
           </button>
           <!-- Collapsible Menu -->
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -378,7 +383,7 @@
                   &#9752 Category: Personal Project (Ongoing)
                 </li>
                 <li class="proj-bullet">
-                  &#9752 Technologies/Tools: Python (BeautifulSoup, requests)
+                  &#9752 Technologies/Tools: Python (BeautifulSoup, requests), Docker
                 </li>
                 <li class="proj-bullet">
                   &#9752 Features: option to filter out specific skills, automatically fetches information daily
@@ -420,10 +425,10 @@
                   &#9752 Category: Personal Project (Ongoing)
                 </li>
                 <li class="proj-bullet">
-                  &#9752 Technologies/Tools: Python (Numpy, Pandas, smtplib), PostgreSQL, Open-Meteo API
+                  &#9752 Technologies/Tools: Python (Numpy, Pandas, smtplib), PostgreSQL, Open-Meteo API, YAML configuration
                 </li>
                 <li class="proj-bullet">
-                  &#9752 Features: twice a day weather forecast fetching, database for forecast and results, email for notification
+                  &#9752 Features: twice a day weather forecast fetching, database for forecast and results, email for notification, python script for setup
                 </li>
               </ul>
             </div>
@@ -563,8 +568,5 @@
      <script src="index.js" defer></script>
      <script src="./scripts/home.js"></script>
      <script src="./scripts/experience.js"></script>
-
-     <!-- Required script for web3forms for hCaptcha -->
-      <script src="https://web3forms.com/client/script.js" async defer></script>
   </body>
 </html>

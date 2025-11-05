@@ -35,6 +35,29 @@ html, body {
   background-color: #020403;
 }
 
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.menu-icon, .close-icon {
+  background-color: #020403;
+  color: #e8e9d9;
+}
+
+/* hides close icon when menu is closed */
+.navbar-toggler .close-icon {
+  display: none;
+}
+
+/* hides menu icon and shows close icon when menu is open */
+.navbar-toggler:not(.collapsed) .menu-icon {
+  display: none;
+}
+
+.navbar-toggler:not(.collapsed) .close-icon {
+  display: inline-block;
+}
+
 section {
   padding-inline: 10dvw;
   padding-bottom: 5vh;
