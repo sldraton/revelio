@@ -3,7 +3,7 @@ html, body {
   color: #020403;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
-  scroll-behavior: smooth;
+  scroll-behavior: auto !important;
 }
 
 .navbar {
