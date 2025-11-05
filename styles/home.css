@@ -3,6 +3,9 @@
   aspect-ratio: 2/1.05;
   object-fit: cover;
   border-radius: 8px;
+
+  opacity: 0;
+  animation: appear 1.2s ease-in-out forwards;
 }
 
 .landing-name {
@@ -105,4 +108,9 @@
 @keyframes slideRightLeft {
   from {opacity: 0; transform: translateX(20px);}
   to {opacity: 1; transform: translateY(0);}
+}
+
+@keyframes appear {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
