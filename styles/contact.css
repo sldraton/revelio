@@ -7,7 +7,7 @@
 .form-label {
   background-color: #020403;
   color: #e8e9d9;
-  font-size: clamp(0.5rem,3.5vw,0.9rem);
+  font-size: clamp(0.5rem,3.2vw,0.9rem);
   padding-block: 0.2rem;
   padding-inline: 0.5rem;
   border: none;
@@ -57,6 +57,12 @@
 
 @media (min-width: 768px) {
   #contact-form {
-    width: 50dvw;
+    width: 55dvw;
+  }
+}
+
+@media (min-width: 1440px) {
+  #contact-form {
+    width: 45dvw;
   }
 }
